@@ -3,11 +3,11 @@ import collections
 
 dq = collections.deque([6,7])
 
-dq.appendleft(5)
-print("Append 5 to the left: ", list(dq))
+dq.appendleft(8)
+print("Append 8 to the left: ", list(dq))
 
-dq.append(8)
-print("Append 8 to the right: ", list(dq))
+dq.append(1)
+print("Append 1 to the right: ", list(dq))
 
 dq.extend([9, 10])
 print("Append  9 and 10 to the right: ", list(dq)) 
